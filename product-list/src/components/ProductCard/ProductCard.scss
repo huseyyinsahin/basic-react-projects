@@ -1,0 +1,45 @@
+.productCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 3rem;
+
+  .product {
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 400px;
+    }
+
+    p {
+      position: absolute;
+      top: 40%;
+      left: 40%;
+      padding: 15px;
+      background-color: rgba(0, 0, 0, 0.376);
+      border-radius: 10px;
+      font-size: 1.3rem;
+      color: white;
+    }
+
+    h1 {
+      position: absolute;
+      bottom: 0;
+      transform: translateX(600px);
+      padding: 15px;
+      background-color: rgba(0, 0, 0, 0.376);
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+      color: white;
+      text-align: center;
+    }
+
+    &:hover h1 {
+      transform: translateX(0px);
+    }
+  }
+}

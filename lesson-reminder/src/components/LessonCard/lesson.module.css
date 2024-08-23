@@ -1,0 +1,36 @@
+.lessonCard {
+  width: 100%;
+  height: 85vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(108, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.lesson {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+  padding: 1rem;
+}
+.lesson img {
+  width: 30%;
+  height: 140px;
+  border-radius: 10px;
+}
+.lesson p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+}
