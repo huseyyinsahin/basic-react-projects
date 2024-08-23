@@ -1,17 +1,20 @@
-import data from "../data.js";
+import data from "../helper/data";
 import ImageCss from "./Image.module.css";
 
 const Image = () => {
   return (
-    <div className={ImageCss.app}>
-      {data.map(({ photographer, src: { large } }) => {
-        return (
-          <div className={ImageCss.cont}>
-            <img src={large} alt={photographer} />
-            <p>{photographer}</p>
-          </div>
-        );
-      })}
+    <div className={ImageCss.imagePage}>
+      <h1>Image Gallery</h1>
+      <div className={ImageCss.app}>
+        {data.map(({ photographer, src: { large } }) => {
+          return (
+            <div className={ImageCss.cont}>
+              <img src={large} alt={photographer} />
+              <p>{photographer}</p>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };

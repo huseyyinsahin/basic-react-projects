@@ -1,12 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.imagePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
-h1 {
-  text-align: center;
-  margin-top: 30px;
-  font-size: 3.3rem;
+.imagePage h1 {
+  font-size: 3rem;
 }
 .app {
   width: 100%;

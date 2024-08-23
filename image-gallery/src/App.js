@@ -1,11 +1,10 @@
-import "./App.css";
-import Image from "./components/Image";
+import "../src/styles/App.css";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <div>
-      <h1>Image Gallery</h1>
-      <Image />
+      <HomePage />
     </div>
   );
 }
