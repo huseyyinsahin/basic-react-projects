@@ -1,8 +1,6 @@
-import React from "react";
 import Lesson from "./lesson.module.css";
-import { data } from "../../helper/data.js";
 
-const LessonCard = () => {
+const LessonCard = ({ data }) => {
   return (
     <div className={Lesson.lessonCard}>
       {data.map(({ id, name, hour, image }) => {

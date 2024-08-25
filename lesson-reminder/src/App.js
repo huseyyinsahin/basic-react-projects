@@ -1,11 +1,9 @@
-import Header from "./components/Header/Header";
-import LessonCard from "./components/LessonCard/LessonCard";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <LessonCard />
+      <HomePage />
     </div>
   );
 }
