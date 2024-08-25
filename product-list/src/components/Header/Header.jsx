@@ -1,8 +1,6 @@
-import React from "react";
 import "./Header.scss";
-import { categories } from "../../helper/data";
 
-const Header = () => {
+const Header = ({ categories }) => {
   return (
     <div className="header">
       <h1>Product List</h1>

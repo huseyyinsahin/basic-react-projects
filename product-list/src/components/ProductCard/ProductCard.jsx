@@ -1,7 +1,6 @@
-import { products } from "../../helper/data";
 import "./ProductCard.scss";
 
-function ProductCard() {
+function ProductCard({ products }) {
   return (
     <div className="productCard">
       {products.map(({ id, title, price, image }) => {

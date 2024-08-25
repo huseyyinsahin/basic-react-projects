@@ -1,13 +1,11 @@
 import "./App.scss";
-import Header from "./components/Header/Header";
 import "./scss/_reset.scss";
-import ProductCard from "./components/ProductCard/ProductCard";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <ProductCard />
+      <HomePage />
     </div>
   );
 }
