@@ -1,10 +1,10 @@
-import React from "react";
 import Image from "../components/Image";
+import data from "../helper/data.js";
 
 const HomePage = () => {
   return (
     <div>
-      <Image />
+      <Image data={data} />
     </div>
   );
 };

@@ -1,7 +1,6 @@
-import data from "../helper/data";
 import ImageCss from "./Image.module.css";
 
-const Image = () => {
+const Image = ({ data }) => {
   return (
     <div className={ImageCss.imagePage}>
       <h1>Image Gallery</h1>
